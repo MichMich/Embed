@@ -148,4 +148,15 @@ class TwitterCards extends Provider
     {
         return $this->get('player:height');
     }
+    
+    
+    /**
+     * Gets the player:stream
+     * 
+     * @return string|null
+     */
+    public function getPlayerStream()
+    {
+        return $this->get('player:stream');
+    }
 }
